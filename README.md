@@ -1,0 +1,2 @@
+# Product and Category Manager Application
+This project is being created while I am learning ASP.NET in the Essential Clean Architecture - ASP .NET Core with C# course. Taught by Jose Carlos Macoratti.
