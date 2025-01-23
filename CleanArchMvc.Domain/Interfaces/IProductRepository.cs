@@ -1,4 +1,9 @@
-public interface IProductRepository {
+namespace CleanArchMvc.Domain.Interfaces;
+
+using CleanArchMvc.Domain.Entities;
+
+public interface IProductRepository
+{
     Task<IEnumerable<Product>> GetProductsAsync();
     Task<Product> GetByIdAsync(int? id);
     Task<Product> GetProductCategoryAsync(int? id);

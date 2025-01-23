@@ -1,4 +1,8 @@
-public sealed class Product : Entity 
+namespace CleanArchMvc.Domain.Entities;
+
+using CleanArchMvc.Domain.Validation;
+
+public sealed class Product : Entity
 {
     public string Name { get; private set; }
     public string Description { get; private set; }

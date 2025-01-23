@@ -1,3 +1,8 @@
+namespace CleanArchMvc.Domain.Entities;
+
+using CleanArchMvc.Domain.Validation;
+
+
 public sealed class Category : Entity 
 {
     public string Name { get; private set; }
